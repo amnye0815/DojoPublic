@@ -1,0 +1,30 @@
+*{
+    color: white;
+    padding: 5px;
+    margin: 0px;
+}
+.nav{
+    background-color: #6495ed;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+h1{
+    font-size: 16px;
+}
+img{
+    width: 100px;
+    align-self: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 65%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
