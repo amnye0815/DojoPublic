@@ -1,0 +1,29 @@
+pwd - shows desktop
+ls - shows all directories in desktop
+mkdir test - makes directory named 'test'
+ls - shows new directory named 'test' among other directories.
+cd test - changes to 'test' directory
+touch index.html styles.css commands.txt - makes new files in 'test'
+ls - shows new files just made
+cp index.html index_2.html - copies index.html and names it index_2.html in 'test'
+ls - shows all files in 'test'
+cd .. - goes to desktop
+mkdir destination - makes new directory named 'destination' in desktop
+ls - shows all directories, including 'destination'
+cd test - goes to 'test'
+mv index_2.html ../destination - moves index_2.html to 'destination'
+ls - shows all files in 'test'
+cd .. - goes to desktop
+cd destination - goes to 'destination'
+ls - shows index_2.html
+cd .. - goes to desktop
+cd test - goes to 'test'
+rm styles.css - removes styles.css
+ls - shows remaining 2 files
+cd .. - goes to desktop
+rm -rf destination - forced removal of 'destination'
+ls - show all directories
+
+went to desktop on actual screen to open test folder and input this in via notepad. 
+
+cat commands.txt - reads all of the above in GitBash terminal. 
