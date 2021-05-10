@@ -1,0 +1,22 @@
+pip install Django==1.11.9 --> this installs Django 1.11.9 into the virtual environment py3Env in my computer.
+
+python -m pip install --upgrade pip --> this was prompted to me to use to upgrade my pip system (went from 9.0.1 to 21.1.1)
+
+pip list --> lists all packages and versions within the virtual environment (VE).
+    Mine read [Django 1.11.9; pip 21.1.1; pytz 2021.1; setuptools 28.8.0]
+
+deactivate --> this deactivates the pip (which is the package manager).
+
+pip3 list --> this lists all packages and versions within the VE, while pip is not activated // It gives the exact same list as before.
+
+source py3Env/bin/activate --> activates the pip for py3Env
+
+pip install Django==1.11.9 --> installs Django (ALREADY INSTALLED) // reads back "requirement already satisfied".
+
+pip freeze --> Shows all the programs you have installed in this VE up until this point. // The difference between 'pip list' and 'pip freeze' is that 'pip list' shows all packages and their versions in the VE and 'pip freeze' shows all the packages/programs you have installed in the VE.
+
+First cd into your Desktop directory (cd ~), then run this command: pip freeze > requirements.txt --> 'requirements.txt' is added to 'desktop' // when you read out the file it shows the same information as pip freeze (programs/packages you have installed in py3Env).
+
+pip uninstall Django --> uninstalls Django if you press 'y' to proceed.
+
+pip show Django --> reads out: "WARNING: Package(s) not found: Django" // This is because we have uninstalled it.
